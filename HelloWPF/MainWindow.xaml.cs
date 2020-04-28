@@ -27,7 +27,7 @@ namespace HelloWPF
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("안녕하세요","친절친절",MessageBoxButton.OK,MessageBoxImage.Question);
         }
     }
 }
